@@ -1,0 +1,95 @@
+#home{
+    background: white;
+}
+#thongtin{
+    background: url("../img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+.thongtin{
+    width: 100%;
+    min-height: 400px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+}
+#hocvan{
+    color: white;
+    background: black;
+    min-height: 600px;
+}
+.hocvan{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hocvan p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+.block{
+    min-height: 100px;
+    background: blue;
+    border-radius: 10px;
+    width: 100%;
+}
+#kinhnghiem{
+    background: purple;
+    min-height: 600px;
+}
+#thuvien{
+    min-height: 600px;
+}
+.thuvien img{
+    width: 250px;
+    margin: 5px;
+}
+#lienhe{
+    min-height: 600px;
+}
+#lienhe input{
+    width: 100%;
+    min-height: 35px;
+    border-radius: 7px;
+    border: solid grey 1px;
+    margin: 7px 0;
+    padding: 5px;
+}
+#lienhe textarea{
+    width: 100%;
+    min-height: 200px;
+    border-radius: 7px;
+    border: solid grey 1px;
+    margin: 7px 0;
+    padding: 5px;
+}
+#lienhe iframe{
+    border-radius: 7px;
+}
+.nut{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.box{
+    width: 50%;
+    height: 100px;
+    background: rgba( 255, 255, 255, 0.25 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );-webkit-backdrop-filter: blur( 4px );border-radius: 10px;border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: fixed;
+    bottom: 10px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    padding: 0 20px;
+    color: white;
+}
